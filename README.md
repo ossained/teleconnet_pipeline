@@ -1,23 +1,15 @@
 📡 TeleConnect Telecom Data Engineering Pipeline
 Specialization: Digitization Business Focus: Telecommunications Tools: Python, Pandas, SQLAlchemy, PostgreSQL
 
-🚀Project Summary — A Full End‑to‑End Data Engineering Pipeline
-This project focuses on building a complete data engineering pipeline for TeleConnect, a telecom provider with 45+ million subscribers and 800+ cell towers. The goal is to transform raw, inconsistent telecom data into validated, structured, analytics‑ready datasets using a systematic pipeline approach.
+🚀Project Summary — A Full End to End Data Engineering Pipeline.
 
-This is not just data cleaning — it is a production‑style pipeline that ingests, validates, transforms, enriches, and loads telecom data into a relational database.
+This project focuses on building a complete data engineering pipeline for TeleConnect, a telecom provider with 45+ million subscribers and 800+ cell towers. The goal is to transform raw, inconsistent telecom data into validated, structured, analytics ready datasets using a systematic pipeline approach.
+
+This is not just data cleaning it is a production style pipeline that ingests, validates, transforms, enriches, and loads telecom data into a relational database.
 
 🧱 Why Build This Pipeline?
-TeleConnect’s raw data arrives in messy, inconsistent CSV files. Without a pipeline, the business faces:
+TeleConnect’s raw data arrives in messy, inconsistent CSV files.
 
-Fragmented CDR and network data
-
-Manual Excel‑based processing
-
-No unified storage
-
-Slow detection of network issues
-
-Limited ability to analyze customer behavior
 
 A data engineering pipeline solves these problems by creating a repeatable, automated, scalable workflow.
 
@@ -34,7 +26,7 @@ Identify missing values, duplicates, and anomalies
 Goal: Understand the raw data and prepare it for validation.
 
 STEP 2 — Data Validation (Business Rules)
-Apply telecom‑specific validation rules such as:
+Apply telecom specific validation rules such as:
 
 Phone number format checks
 
@@ -83,7 +75,7 @@ Pandas
 
 SQLAlchemy
 
-Goal: Store the cleaned data in a structured, query‑optimized environment.
+Goal: Store the cleaned data in a structured, query optimized environment.
 
 STEP 6 — Insights & Operational Use
 Once the pipeline loads clean data into the database, TeleConnect can:
@@ -96,7 +88,7 @@ Analyze customer usage patterns
 
 Protect revenue by catching anomalies
 
-Support churn‑reduction strategies
+Support churn reduction strategies
 
 Goal: Turn engineered data into business decisions.
 
@@ -155,6 +147,6 @@ Feature engineering
 
 ETL into PostgreSQL
 
-Telecom‑specific business logic
+Telecom specific business logic
 
-It is designed to be scalable, repeatable, and production‑ready
+It is designed to be scalable, repeatable, and production ready
