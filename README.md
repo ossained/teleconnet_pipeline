@@ -1,0 +1,5 @@
+This project delivers a complete, production‑style Telecom Data Engineering Pipeline designed to transform raw Call Detail Records (CDRs) into clean, validated, analytics‑ready datasets. TeleConnect, a large telecom provider with millions of subscribers and hundreds of cell towers, generates massive volumes of fragmented CSV files that are inconsistent, error prone, and difficult to analyze manually.
+
+The pipeline solves this by implementing a structured, automated workflow that performs data extraction, validation, cleaning, transformation, feature engineering, and ETL into PostgreSQL. It enforces telecom‑specific business rules such as phone number formats, signal strength ranges, call duration limits, and timestamp consistency to ensure data quality and operational reliability.
+
+By standardizing and enriching the data, the pipeline enables TeleConnect to detect network issues, analyze customer behavior, identify underperforming towers, and support revenue protection and churn reduction strategies.
